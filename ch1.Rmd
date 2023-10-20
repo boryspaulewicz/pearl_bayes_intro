@@ -375,7 +375,7 @@ regression model. This is a general phenomenon: if $Y$ *really is* caused by $X$
 conditioning on $Y$ will *most likely* induce a spurious statistical dependence between $X$ and
 $Z$. That is why: women may easily *seem* more (or less) intelligent than men if we have too many
 (or too few) psychology students in our sample, it may *seem* that achievements in sports tend to be
-accompanied by poor academic performance if we have too many or too few college students in our
+accompanied by poor academic performance if we have too many (or too few) college students in our
 sample, and it may *seem* that attractive people are less nice if we study people on dates.
 
 Here is how I sometimes remember how the three causal structures just described work: Only the
