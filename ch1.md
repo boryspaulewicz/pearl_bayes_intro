@@ -593,7 +593,7 @@ the first node on the left, $C$ is to the right of $R$, $E$ is to the
 right of $C$, and $Y$ is to the right of $E$.
 
 7.b Remove all the arrows that belong *only* to the *inactive* paths
-between the observable variables $R$ and $Y$. Such paths cannot explain
+between the observed variables $R$ and $Y$. Such paths cannot explain
 the observed statistical effect of $R$ on $Y$. Since we are removing
 some possibly “real” arrows, the graph may not be true, but its purpose
 here is to serve as a representation of all the possible qualitative
