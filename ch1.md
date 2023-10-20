@@ -7,7 +7,7 @@ This is an introduction to Pearl’s Structural Causal Model (SCM) for
 psychologists (<https://en.wikipedia.org/wiki/Causal_model>). What
 follows takes some time to get used to. You will gradually learn a whole
 *new language*, with technical terms such as “sequence,” “function,”
-“graph,” “node,” “edge,” “path,” “markovian,” “recursive,”
+“graph,” “node,” “edge,” “path,” “Markovian,” “recursive,”
 “d-separation,” “probability distribution,” “conditional probability,”
 “statistical (in)dependence,” “conditional (or marginal)
 (in)dependence,” “linear regression,” etc., and you will learn to use
