@@ -475,7 +475,7 @@ more variables.
 
 An *active* path is any path that does not contain any colliders. If a
 path has a collider somewhere, then it is *inactive*. You can say that a
-collider breaks any flow of information, if any, induced by the path
+collider breaks the flow of information, if any, induced by the path
 that it is a part of. If $X$ and $Y$ are nodes on the causal graph $G$,
 then $X$ and $Y$ *may* be statistically dependent according to $G$
 *only* if there is at least one active path between $X$ and $Y$; if
