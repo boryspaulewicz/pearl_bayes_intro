@@ -388,7 +388,7 @@ parentheses is nonstandard, by the way.
 So, here is all you need to know about the three most important simple
 causal structures:
 
-# The Holy Trinity: the Chain, the Fork, and the Weird One aka Collider
+# The Holy Trinity: the Chain, the Fork, and the Weird One aka the Collider
 
 Consider the path $(X \rightarrow Y \rightarrow Z)$ as a causal graph
 $X \rightarrow Y \rightarrow Z$. Can you already see how every causal
