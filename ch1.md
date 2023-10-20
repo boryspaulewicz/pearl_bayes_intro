@@ -278,19 +278,19 @@ summary(lm(Z ~ X + Y))
 
     Residuals:
         Min      1Q  Median      3Q     Max 
-    -3.4909 -0.6771 -0.0059  0.6815  3.5300 
+    -4.0680 -0.6771 -0.0081  0.6643  3.8304 
 
     Coefficients:
-                 Estimate Std. Error t value Pr(>|t|)  
-    (Intercept) -0.007674   0.009943  -0.772   0.4403  
-    X            0.001489   0.009897   0.150   0.8804  
-    Y            0.024411   0.009894   2.467   0.0136 *
+                 Estimate Std. Error t value Pr(>|t|)    
+    (Intercept)  0.004170   0.009992   0.417    0.676    
+    X           -0.013921   0.014255  -0.977    0.329    
+    Y            0.999006   0.009933 100.576   <2e-16 ***
     ---
     Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
-    Residual standard error: 0.9943 on 9997 degrees of freedom
-    Multiple R-squared:  0.0006106, Adjusted R-squared:  0.0004107 
-    F-statistic: 3.054 on 2 and 9997 DF,  p-value: 0.04721
+    Residual standard error: 0.9991 on 9997 degrees of freedom
+    Multiple R-squared:  0.6646,    Adjusted R-squared:  0.6645 
+    F-statistic:  9903 on 2 and 9997 DF,  p-value: < 2.2e-16
 
 As you can see, the *statistical* effect of $X$ on $Z$ is not
 significant when we include $Y$ as an additional predictor in a linear
