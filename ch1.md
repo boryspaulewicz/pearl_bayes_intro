@@ -580,7 +580,7 @@ has to be such that …, and if this path is … and it is active then …
 $R$ is randomly assigned.
 
 $C$(ause) and $E$(ffect) are two *latent* variables such that $E$ cannot
-cause $E$.
+cause $C$.
 
 $Y$ is observed, and its value is determined only *after* the values of
 $C$ and $E$ are determined.
