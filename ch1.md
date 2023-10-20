@@ -511,13 +511,13 @@ cor.test(X, Z)
         Pearson's product-moment correlation
 
     data:  X and Z
-    t = 69.407, df = 9998, p-value < 2.2e-16
+    t = 1.0752, df = 9998, p-value = 0.2823
     alternative hypothesis: true correlation is not equal to 0
     95 percent confidence interval:
-     0.5568515 0.5833086
+     -0.008849123  0.030346487
     sample estimates:
-          cor 
-    0.5702279 
+           cor 
+    0.01075281 
 
 ``` r
 summary(lm(Z ~ X + Y))
@@ -528,20 +528,20 @@ summary(lm(Z ~ X + Y))
     lm(formula = Z ~ X + Y)
 
     Residuals:
-        Min      1Q  Median      3Q     Max 
-    -4.0680 -0.6771 -0.0081  0.6643  3.8304 
+         Min       1Q   Median       3Q      Max 
+    -2.58850 -0.47118  0.00207  0.46563  3.07255 
 
     Coefficients:
                  Estimate Std. Error t value Pr(>|t|)    
-    (Intercept)  0.004170   0.009992   0.417    0.676    
-    X           -0.013921   0.014255  -0.977    0.329    
-    Y            0.999006   0.009933 100.576   <2e-16 ***
+    (Intercept) -0.005983   0.007093  -0.844    0.399    
+    X           -0.490495   0.008743 -56.099   <2e-16 ***
+    Y            0.503448   0.005006 100.576   <2e-16 ***
     ---
     Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
-    Residual standard error: 0.9991 on 9997 degrees of freedom
-    Multiple R-squared:  0.6646,    Adjusted R-squared:  0.6645 
-    F-statistic:  9903 on 2 and 9997 DF,  p-value: < 2.2e-16
+    Residual standard error: 0.7093 on 9997 degrees of freedom
+    Multiple R-squared:  0.503, Adjusted R-squared:  0.5029 
+    F-statistic:  5059 on 2 and 9997 DF,  p-value: < 2.2e-16
 
 In our collider-like process, $X$ and $Z$ are independent (a fact that
 *we have not obtained evidence against*, as the correlation between $X$
