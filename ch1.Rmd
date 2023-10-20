@@ -375,7 +375,7 @@ on the middle node in a fork or a chain prevents the flow.
 
 **Exercise 6**: Prove that if $X$ is randomly assigned, $Y$ is observed, and $X$ and $Y$ are
 statistically dependent (i.e., there is some kind of statistical effect of $X$ on $Y$), then this
-statistical effect can only be due to some *directional* path(s) going *from $X$ to $Y$*. We say
+statistical effect can only be due to some *directional* path(s) going *from* $X$ *to* $Y$. We say
 that a path is directional if it does not change direction along the way. Notice that we do *not*
 assume here that $X$ and $Y$ are the *only* modeled variables on the graph, so your proof may
 include a sketch of a partially specified causal graph. You may state your proof like this: For
